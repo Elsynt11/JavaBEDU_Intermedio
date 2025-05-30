@@ -1,4 +1,4 @@
-import src.OrdenProduccion;
+package src;
 
 public class OrdenPersonalizada extends OrdenProduccion
 {
@@ -13,7 +13,7 @@ public class OrdenPersonalizada extends OrdenProduccion
     @Override
     public void mostrarResumen()
     {
-        System.out.println("🛠️ OrdenPersonalizada - Código: " + codigo + " Cantidad: " + cantidad + " Cliente: " + cliente);
+        System.out.println("🛠️ src.OrdenPersonalizada - Código: " + codigo + " Cantidad: " + cantidad + " Cliente: " + cliente);
     }
 
     public void agregarCosto(double costo)
